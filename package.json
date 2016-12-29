@@ -1,0 +1,37 @@
+{
+  "name": "mobu",
+  "version": "1.0.0",
+  "description": "MOngoDb Uri builder and parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --glob \"*.test.js$\" --recursive ./test",
+    "cover": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RegBinder/mobu.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "uri",
+    "parser",
+    "builder",
+    "connection",
+    "string"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RegBinder/mobu/issues"
+  },
+  "homepage": "https://github.com/RegBinder/mobu#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "engines": {
+      "node": ">=6.9.2"
+  }
+}
