@@ -41,7 +41,7 @@ const mongoDbConnectionUri = mobu.build({
     connection.
   * `options` - __Array__ Any querystring parameters to include. mobu will
     accept any options so please check the [MongoDB connection string
-    documentation]() for the correct options. Each option is of the form: `optionName: optionValue`
+    documentation](https://docs.mongodb.com/manual/reference/connection-string/) for the correct options. Each option is of the form: `optionName: optionValue`
     * `optionValue` - __String__ Any value for the provided option (`optionName`)
 
 ### Development
